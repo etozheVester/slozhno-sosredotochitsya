@@ -2,4 +2,111 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  font-family: var(--text-ff);
+}
+
+.header {
+  position: relative;
+  display: grid;
+  justify-items: end;
+  background-image: url(../images/cover-image-dark.png);
+}
+
+.header::before {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  content: '';
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+}
+
+.header::after {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  content: '';
+  width: 25px;
+  height: 25px;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+}
+
+.header__dark-element {
+  position: absolute;
+  top: 6px;
+  right: 18px;
+  font-size: var(--text-size);
+  color: var(--accent-color);
+  font-weight: var(--text-fw-normal);
+  text-align: center;
+}
+
+.header__dark-element::after {
+  content: '';
+  padding-left: 10px;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 9px;
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 4px 2px currentColor;
+}
+
+.header__theme-menu-list {
+  padding: 67px 10px 70px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  min-width: 70px;
+  min-height: 26px;
+  background-color: transparent;
+  color: var(--accent-color);
+  font-size: var(--text-size);
+  font-family: inherit;
+  font-weight: var(--text-fw-normal);
+  text-transform: lowercase;
+  border: none;
+  cursor: pointer;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+header__theme-menu-button_active {
+  pointer-events: none;
+}
+
+.header__title {
+  padding: 0 10px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-weight: var(--text-fw-bold);
+  color: var(--heading-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  line-height: 95.7px;
+}
+
+.header__title-text {
+  margin: 55px 10px 66px;
+  font-size: var(--text-size);
+  font-weight: var(--text-fw-bold);
+}
+
+.title-decor {
+  background-color: var(--accent-color);
+  color: var(--subtitle-color);
 }
