@@ -9,9 +9,11 @@
   --text-fw-normal: 400;
   --text-size: 18px;
   --text-lh: 23.4px;
+  --background-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
   --heading-color: #db00ff;
   --subtitle-color: #000028;
   --subtitle-bg-color: #ff0070;
   --text-color: #f1b2ce;
+  --hover-color: rgba(225, 0, 112, 0.4);
 }
