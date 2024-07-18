@@ -11,6 +11,10 @@
   */
 }
 
+.theme_light .header__dark-element {
+  display: none;
+}
+
 :root .theme_light {
   --background-image: url(../images/cover-image-light.png);
   --accent-color: #ff8dcb;
@@ -30,5 +34,9 @@
   --subtitle-bg-color: #ff8dcb;
   --text-color: #353430;
   --hover-color: rgba(255, 141, 203, 1);
+  }
+
+  .header__dark-element {
+    display: none;
   }
 }

@@ -11,6 +11,10 @@
   */
 }
 
+.theme_dark .header__dark-element {
+  display: block;
+}
+
 :root .theme_dark {
   --background-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
@@ -19,4 +23,10 @@
   --subtitle-bg-color: #ff0070;
   --text-color: #f1b2ce;
   --hover-color: rgba(225, 0, 112, 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+  .header__dark-element {
+    display: block;
+  }
 }
