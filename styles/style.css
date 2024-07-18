@@ -365,7 +365,7 @@
   .header__subtitle {
     min-width: 491px;
     height: 71px;
-    margin: 122px 20px 0
+    margin: 122px 20px 0;
   }
 
   .main__content-info {
