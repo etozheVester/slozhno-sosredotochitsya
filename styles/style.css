@@ -315,8 +315,9 @@
     grid-column-start: 2;
   }
 
-  .main__content-info-concentration .main__content-article:nth-last-of-type(5) .main__content-subsubtitle {
-    margin-block-start: 20px;
+  .main__content-info-concentration .main__content-title {
+    grid-row-start: 1;
+    grid-row-end: 3;
   }
 
   .main__content-subsubtitle {
