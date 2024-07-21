@@ -151,7 +151,7 @@
   font-size: var(--text-size);
   font-weight: var(--text-fw-normal);
   line-height: var(--text-lh);
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 .main__content-subsubtitle {
