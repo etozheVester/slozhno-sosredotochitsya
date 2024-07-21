@@ -4,13 +4,14 @@
 */
 
 :root {
-  --text-ff: 'IBM Plex mono';
+  --text-ff: 'IBM Plex mono', 'Arial', sans-serif;
   --text-fw-bold: 700;
   --text-fw-normal: 400;
   --text-size: 18px;
   --text-lh: 23.4px;
   --background-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
+  --decorated-color: #ff0070;
   --heading-color: #db00ff;
   --subtitle-color: #000028;
   --subtitle-bg-color: #ff0070;

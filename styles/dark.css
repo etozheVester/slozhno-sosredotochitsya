@@ -4,20 +4,15 @@
   переключая тему
 */
 
-.page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
-
 .theme_dark .header__dark-element {
   display: block;
 }
 
 :root .theme_dark {
   --background-image: url(../images/cover-image-dark.png);
+  --background-color: #000028;
   --accent-color: #ff0070;
+  --decorated-color: #ff0070;
   --heading-color: #db00ff;
   --subtitle-color: #000028;
   --subtitle-bg-color: #ff0070;
@@ -28,5 +23,9 @@
 @media (prefers-color-scheme: dark) {
   .header__dark-element {
     display: block;
+  }
+
+  :root {
+    --background-color: #000028;
   }
 }
