@@ -21,6 +21,10 @@
   --hover-color: rgba(50, 49, 45, 0.4);
 }
 
+.main__content-title {
+  color: var(--subtitle-color);
+}
+
   @media (prefers-color-scheme: light) {
   :root {
   --background-image: url(../images/cover-image-light.png);
