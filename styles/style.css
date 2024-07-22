@@ -134,7 +134,7 @@
 
 .main__content-title {
   font-size: var(--text-size);
-  color: var(--accent-color);
+  color: var(--title-color);
   font-weight: var(--text-fw-bold);
   line-height: var(--text-lh); 
 }

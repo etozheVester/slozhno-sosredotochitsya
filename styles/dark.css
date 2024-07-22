@@ -14,6 +14,7 @@
   --accent-color: #ff0070;
   --decorated-color: #ff0070;
   --heading-color: #db00ff;
+  --title-color: #ff0070;
   --subtitle-color: #000028;
   --subtitle-bg-color: #ff0070;
   --text-color: #f1b2ce;
@@ -28,4 +29,4 @@
   :root {
     --background-color: #000028;
   }
-}
+  }

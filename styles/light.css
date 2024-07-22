@@ -15,15 +15,13 @@
   --accent-color: #ff8dcb;
   --decorated-color: #353430;
   --heading-color: #ffc2e6;
+  --title-color: #353430;
   --subtitle-color: #353430;
   --subtitle-bg-color: #ff8dcb;
   --text-color: #353430;
   --hover-color: rgba(50, 49, 45, 0.4);
 }
 
-.main__content-title {
-  color: var(--subtitle-color);
-}
 
   @media (prefers-color-scheme: light) {
   :root {
@@ -32,6 +30,7 @@
   --accent-color: #ff8dcb;
   --decorated-color: #353430;
   --heading-color: #ffc2e6;
+  --title-color: #353430;
   --subtitle-color: #353430;
   --subtitle-bg-color: #ff8dcb;
   --text-color: #353430;
